@@ -99,6 +99,15 @@ alwaysApply: true
   6. Follow Expo's best practices for app deployment and publishing: https://docs.expo.dev/distribution/introduction/
   7. Ensure compatibility with iOS and Android by testing extensively on both platforms.
 
+  Codebase Documentation
+  - For every new file added to the project, include an explanation entry in `codebase.md`.
+  - Describe each file's purpose in 1-3 concise lines, focusing on what the file does and how it fits into the app.
+  - Use the following structure for each entry:
+    - `path/to/file.tsx` - Brief description of its function or component role.
+  - Group entries by category (e.g., pages, components, hooks, utils).
+  - Keep descriptions updated if file responsibilities change or files are removed.
+
+
   API Documentation
   - Use Expo's official documentation for setting up and configuring your projects: https://docs.expo.dev/
 
